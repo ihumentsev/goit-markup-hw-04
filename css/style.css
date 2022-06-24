@@ -374,7 +374,11 @@ fill: currentColor;
 }
 
 .team-social-link:hover {
-    
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+.team-social-link:focus {
     color: var(--background-color);
     background-color: var(--accent-color);
 }
@@ -413,7 +417,8 @@ fill: currentColor;
 
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
     border-color: var(--accent-color);
     color: var(--accent-color);
 }
@@ -590,7 +595,8 @@ address {
 
  
 
-.social-footer-link:hover {
+.social-footer-link:hover,
+.social-footer-link:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
     
